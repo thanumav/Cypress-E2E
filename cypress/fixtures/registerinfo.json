@@ -1,0 +1,8 @@
+{
+    "firstName": "test",
+    "lastName": "agent",
+    "email": "test@test.com",
+    "telephone": "1234567890",
+    "password": "testing",
+    "url": "https://naveenautomationlabs.com/opencart/index.php?route=account/register"
+}
