@@ -7,7 +7,8 @@ describe('Registration', () => {
 
   it('Registration to labs', () => {
 
-    registerObj.openUrl()
+    // registerObj.openUrl()
+    cy.visit('register')
     registerObj.enterfirstName(registerinfo.firstName)
     registerObj.enterlastName(registerinfo.lastName)
     registerObj.enteremail(registerinfo.email)
