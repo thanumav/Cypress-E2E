@@ -3,12 +3,13 @@ import { loginPage } from "../../pages/loginPage"
 const loginObj = new loginPage()
 import logindata from "../../fixtures/logindata.json"
 
+//Login functionality
 describe('Logging in', () => {
 
     beforeEach('logging in', () => {
         cy.visit('login')
     })
-
+    //Case 1
     it('No details entered', () => {
         loginObj.clicksubmit()
     })
